@@ -1,37 +1,42 @@
-# Viewing and Interpreting Audit Logs in Microsoft Azure's Entra ID
+# Audit Log Review in Microsoft Entra ID
 
 ## Objective
 
-View and interpret audit logs for a user account in Microsoft Entra ID.
+Review audit logs for a user account in Microsoft Entra ID to examine recorded administrative activity and account changes.
 
-## Scenario
+## Tools & Environment
 
-This lab simulated reviewing an administrative audit trail to understand what changes had been made to a user's account and when.
+* Microsoft Entra ID
+* Windows 11
 
-## Tasks Completed
+## Steps Performed
 
-- Located and opened the audit log view for Kyle Roberts' account.
-- Reviewed the logged administrative actions and changes associated with the account.
+1. Opened Kyle Roberts' user account in Microsoft Entra ID.
+2. Navigated to the user's **Audit logs**.
+3. Reviewed recorded administrative activities associated with the account.
+4. Examined the audit trail to understand when account-related changes occurred.
 
-## Screenshots
+## Verification
 
-<p align="center">
-<img width="1000" alt="Audit logs of Kyle Roberts" src="https://github.com/user-attachments/assets/a69a8ceb-89ae-41f2-9ce6-d4ee241cb197" />
-</p>
-<p align="center"><em>Audit logs of user Kyle Roberts.</em></p>
+### User Audit Log
+
+<img width="550" alt="Audit logs for Kyle Roberts in Microsoft Entra ID" src="https://github.com/user-attachments/assets/a69a8ceb-89ae-41f2-9ce6-d4ee241cb197" />
+
+*Reviewed the audit history associated with Kyle Roberts' account in Microsoft Entra ID.*
 
 ## Skills Demonstrated
 
-- Audit Log Review
-- Security Monitoring
-- Identity Governance
-- Attention to Detail
+* Microsoft Entra ID
+* Audit log review
+* Administrative activity monitoring
+* Identity activity analysis
+* Security monitoring concepts
 
 ## What I Learned
 
-This lab reinforced why audit logs matter for accountability. Every administrative change to an account leaves a record, which is essential for investigating issues or verifying that changes were made correctly and by the right person.
+This lab demonstrated how audit logs provide a record of administrative activity within Microsoft Entra ID. Reviewing this history can help IT administrators investigate account changes, troubleshoot identity-related issues, and understand when administrative actions occurred.
 
 ## Lab Environment
 
-- Microsoft Azure Entra ID
-- Windows 11
+* Microsoft Entra ID
+* Windows 11
